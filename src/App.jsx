@@ -67,11 +67,11 @@ function ShoeWebsite(){
           <p data-aos="fade-up" className="text-white">This stylish shoe is perfect for any occasion. <br />
 Comfortable, trendy, and made to last.</p>
 
-          <div data-aos="fade-up" className="flex gap-3 mt-10">
-            <a className="rounded-lg bg-[#753D88] px-8 py-3 text-white font-semibold cursor-pointer">
+          <div data-aos="fade-up" className="flex gap-3 mt-10" >
+            <a className="but rounded-lg bg-[#753D88] px-8 py-3 text-white font-semibold cursor-pointer">
               Get Started
             </a>
-            <a className="rounded-lg bg-gray-200 px-8 py-3 text-gray-600 font-semibold cursor-pointer" href="#team">
+            <a className="but rounded-lg bg-gray-200 px-8 py-3 text-gray-600 font-semibold cursor-pointer" href="#team">
               Our Team
             </a>
           </div>
@@ -84,7 +84,7 @@ Comfortable, trendy, and made to last.</p>
           <img
             src={hero}
             alt=""
-            className="transition-transform duration-500 ease-in-out hover:scale-105"
+            className="hero transition-transform duration-500 ease-in-out hover:scale-105"
           />
           <div className="overlay-text absolute bottom-10 left-10 text-white font-bold text-2xl">
             Variety to Quality⭐⭐⭐

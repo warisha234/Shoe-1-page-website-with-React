@@ -69,3 +69,69 @@ body {
     letter-spacing: 1px;
     border-radius: 12px;
 }
+
+/* --- Existing CSS preserved --- */
+
+/* Hero image responsiveness */
+@media (max-width: 1024px) {
+  .hero-img {
+    margin-right: 0 !important; /* lg:mr-20 ka effect remove on smaller screens */
+    width: 100%;
+  }
+
+  .overlay-text {
+    bottom: 20px !important;
+    left: 10px !important;
+    font-size: 1rem;
+  }
+
+  .overlay-text2 {
+    bottom: auto !important;
+    top: 20px !important;
+    left: 10px !important;
+    font-size: 1rem;
+  }
+}
+
+/* Navbar responsiveness */
+@media (max-width: 768px) {
+  header .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  header nav {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  header nav a {
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+  }
+
+  header button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .overlay-text{
+    display: none;
+  }
+  .overlay-text2{
+    display: none;
+  }
+  .but{
+    margin-left: -40px;
+    gap: 30px;
+  }
+  .hero-img{
+    margin-right: 0 !important;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
