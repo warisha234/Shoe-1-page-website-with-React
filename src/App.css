@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+   background:
+    radial-gradient(
+      circle at center,
+      rgba(91, 31, 166, 0.85) 0%,
+      rgba(42, 15, 61, 0.9) 40%,
+      rgba(11, 11, 15, 1) 80%
+    );
+}
+
+
+.hero-img{
+      filter:
+    drop-shadow(0 0 30px rgba(128, 0, 128, 0.7))
+    drop-shadow(0 0 50px rgba(0, 0, 0, 0.7));
+  transition: transform 0.5s ease;
+}
+
+.hero-img:hover {
+  transform: scale(1.05);
+}
+.her0-img{
+    height: 100px;
+}
+
+.image-wrapper {
+  position: relative;  
+  display: inline-block;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 90px;        
+  left: 300px;
+  padding: 8px 18px;
+
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(6px);           
+  -webkit-backdrop-filter: blur(6px);
+
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 12px;
+}
+.overlay-text2{
+    position: absolute;
+    bottom: 400px;        
+    left: 5px;
+    padding: 8px 18px;
+    
+    background: rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(6px);           
+    -webkit-backdrop-filter: blur(6px);
+    
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 12px;
+}
